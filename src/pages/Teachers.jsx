@@ -12,7 +12,8 @@ export default function Teachers() {
       </div>
       <div className="container teacher-grid">
         {content.teachers.map((teacher) => (
-          <article className="card" key={teacher.name}>
+          <article className="card teacher-card" key={teacher.name}>
+            <img className="teacher-photo" src={teacher.image} alt={teacher.name} />
             <div className="avatar" aria-hidden="true" />
             <h3>{teacher.name}</h3>
             <p className="meta">{teacher.subject[lang]}</p>

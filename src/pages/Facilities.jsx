@@ -21,7 +21,8 @@ export default function Facilities() {
       </div>
       <div className="container grid-3">
         {content.facilities.map((item) => (
-          <article className="card" key={item.icon}>
+          <article className="card facility-card" key={item.icon}>
+            <img className="facility-image" src={item.image} alt={item[lang].title} />
             <div className="icon">{icons[item.icon]}</div>
             <h3>{item[lang].title}</h3>
             <p className="meta">{item[lang].text}</p>

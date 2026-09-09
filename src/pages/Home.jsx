@@ -51,6 +51,22 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="section-heading">
+            <h2>School life in focus</h2>
+          </div>
+          <div className="showcase-grid">
+            {content.gallery.map((item) => (
+              <figure className="showcase-card" key={item.title.en}>
+                <img src={item.image} alt={item.title[lang]} />
+                <figcaption>{item.title[lang]}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   )
 }

@@ -152,6 +152,20 @@ export const content = {
   },
   phone: '+91 98765 43210',
   email: 'admissions@gurukulschool.in',
+  gallery: [
+    {
+      title: { en: 'Campus view', hi: 'परिसर दृश्य' },
+      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80',
+    },
+    {
+      title: { en: 'Science lab', hi: 'विज्ञान लैब' },
+      image: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80',
+    },
+    {
+      title: { en: 'Sports field', hi: 'खेल मैदान' },
+      image: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=900&q=80',
+    },
+  ],
   highlights: [
     {
       en: { title: 'Small learning groups', text: 'Limited batch sizes let teachers focus on every child and build confidence early.' },
@@ -169,31 +183,37 @@ export const content = {
   facilities: [
     {
       icon: 'lab',
+      image: 'https://images.unsplash.com/photo-1562771382-9e4d0d4d0bdb?auto=format&fit=crop&w=900&q=80',
       en: { title: 'STEM labs', text: 'Modern science and robotics spaces for experimentation, coding, and design thinking.' },
       hi: { title: 'एसटीईएम लैब', text: 'प्रयोग, कोडिंग और डिज़ाइन थिंकिंग के लिए आधुनिक विज्ञान और रोबोटिक्स क्षेत्र।' },
     },
     {
       icon: 'book',
+      image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80',
       en: { title: 'Library & media centre', text: 'Reading corners, digital archives, and a wide range of books for every age group.' },
       hi: { title: 'पुस्तकालय और मीडिया सेंटर', text: 'पढ़ने के कोने, डिजिटल आर्काइव और हर उम्र के बच्चों के लिए पुस्तकें।' },
     },
     {
       icon: 'sport',
+      image: 'https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=900&q=80',
       en: { title: 'Sports arena', text: 'Track, basketball court, indoor games, and trained sports coaches for all-round development.' },
       hi: { title: 'स्पोर्ट्स एरिया', text: 'ट्रैक, बास्केटबाल कोर्ट, इनडोर खेल और समग्र विकास के लिए प्रशिक्षित कोच।' },
     },
     {
       icon: 'art',
+      image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80',
       en: { title: 'Arts studio', text: 'Music rooms, dance rehearsal space, and a student art gallery for creative expression.' },
       hi: { title: 'कला स्टूडियो', text: 'संगीत कक्ष, नृत्य रिहर्सल स्पेस और रचनात्मक अभिव्यक्ति के लिए छात्र कला दीदी।' },
     },
     {
       icon: 'bus',
+      image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=900&q=80',
       en: { title: 'Transport & safety', text: 'GPS-tracked buses, safe routes, and regular support for student well-being.' },
       hi: { title: 'परिवहन और सुरक्षा', text: 'जीपीएस ट्रैकिंग वाली बसें, सुरक्षित मार्ग और छात्र कल्याण का निरंतर ध्यान।' },
     },
     {
       icon: 'food',
+      image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80',
       en: { title: 'Healthy dining', text: 'Balanced meals, hygiene-first kitchens, and fresh fruit and water throughout the day.' },
       hi: { title: 'स्वास्थ्यकर भोजन', text: 'संतुलित भोजन, स्वच्छ रसोई और पूरे दिन ताज़ा फल और पानी की व्यवस्था।' },
     },
@@ -207,14 +227,14 @@ export const content = {
     { name: 'Vikram Joshi', stream: { en: 'Commerce', hi: 'वाणिज्य' }, score: '96.8%', rank: 6 },
   ],
   teachers: [
-    { name: 'Dr. Neha Kapoor', subject: { en: 'Principal • Physics', hi: 'प्रधानाचार्या • भौतिकी' }, years: '22' },
-    { name: 'Mr. Sameer Verma', subject: { en: 'Mathematics', hi: 'गणित' }, years: '16' },
-    { name: 'Ms. Pooja Mehta', subject: { en: 'English & Literature', hi: 'अंग्रेज़ी और साहित्य' }, years: '14' },
-    { name: 'Mr. Ritesh Saini', subject: { en: 'Chemistry', hi: 'रसायन' }, years: '18' },
-    { name: 'Ms. Sneha Iyer', subject: { en: 'Biology', hi: 'जीवविज्ञान' }, years: '12' },
-    { name: 'Mr. Karan Shah', subject: { en: 'Physical Education', hi: 'शारीरिक शिक्षा' }, years: '11' },
-    { name: 'Ms. Ananya Gupta', subject: { en: 'Hindi & Sanskrit', hi: 'हिन्दी और संस्कृत' }, years: '15' },
-    { name: 'Mr. Arjun Das', subject: { en: 'Computer Science', hi: 'कंप्यूटर विज्ञान' }, years: '9' },
+    { name: 'Dr. Neha Kapoor', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80', subject: { en: 'Principal • Physics', hi: 'प्रधानाचार्या • भौतिकी' }, years: '22' },
+    { name: 'Mr. Sameer Verma', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80', subject: { en: 'Mathematics', hi: 'गणित' }, years: '16' },
+    { name: 'Ms. Pooja Mehta', image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80', subject: { en: 'English & Literature', hi: 'अंग्रेज़ी और साहित्य' }, years: '14' },
+    { name: 'Mr. Ritesh Saini', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80', subject: { en: 'Chemistry', hi: 'रसायन' }, years: '18' },
+    { name: 'Ms. Sneha Iyer', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80', subject: { en: 'Biology', hi: 'जीवविज्ञान' }, years: '12' },
+    { name: 'Mr. Karan Shah', image: 'https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=900&q=80', subject: { en: 'Physical Education', hi: 'शारीरिक शिक्षा' }, years: '11' },
+    { name: 'Ms. Ananya Gupta', image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80', subject: { en: 'Hindi & Sanskrit', hi: 'हिन्दी और संस्कृत' }, years: '15' },
+    { name: 'Mr. Arjun Das', image: 'https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&w=900&q=80', subject: { en: 'Computer Science', hi: 'कंप्यूटर विज्ञान' }, years: '9' },
   ],
   circulars: [
     {
