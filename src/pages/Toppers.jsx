@@ -11,18 +11,19 @@ export default function Toppers() {
         <p>{t.toppers.intro}</p>
         <p className="meta">{t.toppers.year}</p>
       </div>
-      <div className="container rank-list">
+      <div className="container topper-grid">
         {content.toppers.map((student) => (
-          <article className="card rank-item" key={student.name}>
-            <div className="rank">{student.rank}</div>
-            <div>
-              <strong>{student.name}</strong>
-              <div className="meta">
+          <article className="card topper-card" key={student.name}>
+            <div className="topper-rank">#{student.rank}</div>
+            <img className="topper-photo" src={student.image} alt={student.name} />
+            <div className="topper-info">
+              <h3>{student.name}</h3>
+              <p className="meta">
                 {t.toppers.stream}: {student.stream[lang]}
+              </p>
+              <div className="score">
+                {t.toppers.score} {student.score}
               </div>
-            </div>
-            <div className="score">
-              {t.toppers.score} {student.score}
             </div>
           </article>
         ))}

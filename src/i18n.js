@@ -219,12 +219,12 @@ export const content = {
     },
   ],
   toppers: [
-    { name: 'Aarav Malhotra', stream: { en: 'Science', hi: 'विज्ञान' }, score: '98.8%', rank: 1 },
-    { name: 'Diya Sharma', stream: { en: 'Science', hi: 'विज्ञान' }, score: '98.2%', rank: 2 },
-    { name: 'Kabir Singh', stream: { en: 'Commerce', hi: 'वाणिज्य' }, score: '97.6%', rank: 3 },
-    { name: 'Meher Reddy', stream: { en: 'Humanities', hi: 'मानविकी' }, score: '97.4%', rank: 4 },
-    { name: 'Riya Nair', stream: { en: 'Science', hi: 'विज्ञान' }, score: '97.0%', rank: 5 },
-    { name: 'Vikram Joshi', stream: { en: 'Commerce', hi: 'वाणिज्य' }, score: '96.8%', rank: 6 },
+    { name: 'Aarav Malhotra', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80', stream: { en: 'Science', hi: 'विज्ञान' }, score: '98.8%', rank: 1 },
+    { name: 'Diya Sharma', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80', stream: { en: 'Science', hi: 'विज्ञान' }, score: '98.2%', rank: 2 },
+    { name: 'Kabir Singh', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80', stream: { en: 'Commerce', hi: 'वाणिज्य' }, score: '97.6%', rank: 3 },
+    { name: 'Meher Reddy', image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80', stream: { en: 'Humanities', hi: 'मानविकी' }, score: '97.4%', rank: 4 },
+    { name: 'Riya Nair', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80', stream: { en: 'Science', hi: 'विज्ञान' }, score: '97.0%', rank: 5 },
+    { name: 'Vikram Joshi', image: 'https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&w=900&q=80', stream: { en: 'Commerce', hi: 'वाणिज्य' }, score: '96.8%', rank: 6 },
   ],
   teachers: [
     { name: 'Dr. Neha Kapoor', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80', subject: { en: 'Principal • Physics', hi: 'प्रधानाचार्या • भौतिकी' }, years: '22' },
